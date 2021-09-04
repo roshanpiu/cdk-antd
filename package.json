@@ -1,0 +1,14 @@
+{
+  "name": "antd-cdk",
+  "version": "1.0.0",
+  "description": "This is a pattern to deploy ant design starter to aws using cdk",
+  "scripts": {
+    "buildapp": "cd app && npm i && npm run build && cd ../",
+    "buildcdk": "cd cdk && npm i && npm run build && cd ../",
+    "build": "npm run buildapp && npm run buildcdk",
+    "deploy": "cd cdk && npm run deploy",
+    "test": "echo \"no ci/cd tests setup\""
+  },
+  "author": "",
+  "license": "ISC"
+}
